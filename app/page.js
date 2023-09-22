@@ -1,6 +1,8 @@
 import Image from 'next/image'
 import Header from '@/components/Header'
-// import Hero from '@/components/Hero'
+import Hero from '@/components/Hero'
+import Diagram from '@/components/Diagram'
+import Getstarted from '@/components/getstarted'
 
 export default function Home() {
   const headerlinks = [
@@ -36,7 +38,9 @@ export default function Home() {
   return (
     <div>
       <Header  links = {headerlinks}/>
-      {/* <Hero/> */}
+      <Hero/>
+      <Diagram/>
+      <Getstarted/>
     </div>
   )
 }
