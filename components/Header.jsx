@@ -39,7 +39,8 @@ const Header = ({ links }) => {
                     </button>
                 </div>
                 <div className='flex flex-col justify-center items-center w-full border-[2px] border-blue-500 md:min-h-[500px] h-full'>
-                    <div className='w-[50vw] py-[4vh]'>
+                    <div className='w-[50vw] py-[2vh]'>
+
                         <h1 className='text-2xl flex justify-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
                     </div>
                     <div className='w-[40vw] py-[2vh]'>
