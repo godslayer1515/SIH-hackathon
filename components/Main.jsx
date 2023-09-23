@@ -4,7 +4,7 @@ import ministry from '@/public/assets/Ministry-of-Law-Justice (1).jpg';
 
 const Main = () => {
     return (
-        <div id='home' className="flex justify-center items-center ">
+        <div id='home' className="flex justify-center items-center md:pt-0 pt-[18vh]">
             <div className="w-[50%] h-[50%] shadow-black">
                 <Image
                     src={ministry}
