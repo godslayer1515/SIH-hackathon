@@ -11,7 +11,7 @@ const Dependencies = () => {
                 <div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
                     {dependencies.map((item) => (
                         <div key={item.id} className='bg-white shadow-md p-4 rounded-lg'>
-                            <span className='bg-blue-300 text-white rounded p-2'>{item.id}</span>
+                            <span className='bg-[#8674f0] text-white rounded p-2 hover:cursor-pointer flex w-[40px] justify-center hover:w-[45px] transition-all ease-in 2s'>{item.id}</span>
                             <h2 className='text-lg font-semibold my-2'>{item.title}</h2>
                             <p className='text-gray-700'>{item.description}</p>
                         </div>
