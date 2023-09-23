@@ -1,12 +1,22 @@
-import React from 'react'
-import Image from 'next/image'
-import ministry from '@/public/assets/Ministry-of-Law-Justice.jpg'
+import React from 'react';
+import Image from 'next/image';
+import ministry from '@/public/assets/Ministry-of-Law-Justice (1).jpg';
+
 const Main = () => {
     return (
-        <div className=" flex justify-center">
-            <Image src={ministry} width={1280} height={1280} alt="logo" className='w-[50%] h-[80%]' />
+        <div id='home' className="flex justify-center items-center ">
+            <div className="w-[50%] h-[50%]">
+                <Image
+                    src={ministry}
+                    alt="Ministry of Law and Justice"
+                    layout="responsive"
+                    width={1280}
+                    height={1280}
+                    objectFit="cover" // Maintain aspect ratio and cover the container
+                />
+            </div>
         </div>
-    )
+    );
 }
 
-export default Main
+export default Main;
