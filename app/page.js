@@ -7,6 +7,7 @@ import Main from '@/components/Main'
 import Flowchart from '@/components/Flowchart'
 import UseCases from '@/components/UseCases'
 import Dependencies from '@/components/Dependencies'
+import Footer from '@/components/Footer'
 export default function Home() {
   const headerlinks = [
     {
@@ -48,6 +49,7 @@ export default function Home() {
       <Dependencies />
       <Flowchart />
       <Getstarted />
+      <Footer/>
     </div>
   )
 }
