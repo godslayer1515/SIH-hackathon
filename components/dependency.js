@@ -192,4 +192,30 @@ const dataPoints = [
     }
 ];
 
-export { useCases, dependencies, dataPoints };
+const headerlinks = [
+    {
+        id: 1,
+        name: "home",
+    },
+    {
+        id: 2,
+        name: "ps",
+    },
+    {
+        id: 3,
+        name: "choose",
+    },
+    {
+        id: 4,
+        name: "usecases",
+    },
+    {
+        id: 5,
+        name: 'dependencies',
+    },
+    {
+        id: 6,
+        name: "flowchart",
+    },
+]
+export { useCases, dependencies, dataPoints, headerlinks };
