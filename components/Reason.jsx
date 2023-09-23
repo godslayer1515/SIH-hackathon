@@ -6,7 +6,7 @@ const Reason = () => {
     <div className='bg-[#f5f5f5] w-full py-12 pt-[15vh]' id='cull'>
       <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
         <div className='text-center'>
-          <h1 className='text-2xl sm:text-3xl font-bold my-4'>Why We Chose This Problem Statement?</h1>
+          <h1 className='text-2xl sm:text-3xl font-bold my-4 cursor-pointer hover:shalow-lg'>Our Enthusiasm towards the Problem Statement:</h1>
         </div>
         <div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
           {dataPoints.map((item) => (
