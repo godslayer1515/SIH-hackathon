@@ -3,7 +3,7 @@ import { useCases } from '@/components/dependency.js';
 
 const UseCases = () => {
     return (
-        <div className='bg-[#8674f0] w-full py-12 rounded-[20px]' id='usecases'>
+        <div className='bg-[#8674f0] w-full py-12 rounded-[20px] pt-[15vh]' id='usecases'>
             <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
                 <div className='text-center'>
                     <h1 className='text-2xl sm:text-3xl font-bold my-4'>Use Cases</h1>

@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const Flowchart = () => {
     return (
-        <div id='flowchart' className='bg-[#f5f5f5] w-full py-8'>
+        <div id='flowchart' className='bg-[#f5f5f5] w-full py-8 pt-[15vh]'>
             <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
                 <h1 className='text-center text-2xl sm:text-3xl font-bold mb-4'>Flowchart</h1>
                 <div className='flex justify-center'>
