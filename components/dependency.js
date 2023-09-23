@@ -203,7 +203,7 @@ const headerlinks = [
     },
     {
         id: 3,
-        name: "choose",
+        name: "cull",
     },
     {
         id: 4,

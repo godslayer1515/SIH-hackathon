@@ -3,7 +3,7 @@ import { dataPoints } from '@/components/dependency.js';
 
 const Reason = () => {
   return (
-    <div className='bg-[#f5f5f5] w-full py-12' id='choose'>
+    <div className='bg-[#f5f5f5] w-full py-12' id='cull'>
       <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
         <div className='text-center'>
           <h1 className='text-2xl sm:text-3xl font-bold my-4'>Why We Chose This Problem Statement?</h1>

@@ -16,8 +16,8 @@ const ProblemStatement = () => {
                             India{'\''}s legal services sector faces significant challenges, making it difficult for people to access the legal support they need. Many legal service providers, including advocates, arbitrators, and notaries, operate independently, resulting in a fragmented and unorganized landscape. This lack of structure leads to several issues:
                         </p>
                         <ul className='list-disc pl-4 text-gray-700'>
-                            <li>Lack of Transparency: Clients struggle to find the right legal service provider for their needs due to a lack of centralized information and reviews.</li>
-                            <li>Difficulty in Quality Assurance: Ensuring the quality and reliability of legal services is a challenge, as there is no standardized system for evaluating providers.</li>
+                            <li>Lack of Transparency: Clients struggle to find the right legal service provider for their needs due to lack of centralized information and reviews.</li>
+                            <li>Difficulty in Quality Assurance: Ensuring the quality and reliability of legal services is a challenge, since there is no standardized system for evaluating providers.</li>
                             <li>Limited Accessibility: Citizens from diverse socio-economic backgrounds often find it challenging to access legal expertise and representation, exacerbating the justice gap.</li>
                         </ul>
                     </div>
