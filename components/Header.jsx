@@ -4,7 +4,7 @@ import Image from 'next/image'
 import logo from '../public/logo.png'
 import menu from '../public/menu-icon.png'
 import menuclose from '../public/menu-close.png'
-
+import ministry from '@/public/assets/Ministry-of-Law-Justice.jpg'
 const Header = ({ links }) => {
     const [Toggle, SetToggle] = useState(true)
     const onToggle = () => {
@@ -12,7 +12,7 @@ const Header = ({ links }) => {
     }
     return (
         <>
-            <header className="text-gray-600 body-font border-[2px] border-red-500 wu= h-full md:min-h-[400px]">
+            <header>
                 <div className="container mx-auto flex p-5 flex-row justify-between items-center mt-[2vh] mb-[2vh]">
                     <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
                         <Image src={logo} width={50} height={20} alt="logo" />
@@ -38,18 +38,7 @@ const Header = ({ links }) => {
                         }
                     </button>
                 </div>
-                <div className='flex flex-col justify-center items-center w-full border-[2px] border-blue-500 md:min-h-[500px] h-full'>
-                    <div className='w-[50vw] py-[2vh]'>
 
-                        <h1 className='text-2xl flex justify-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
-                    </div>
-                    <div className='w-[40vw] py-[2vh]'>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem velit quas voluptatem eius harum assumenda minus ut quibusdam debitis possimus, labore saepe officiis?</p>
-                    </div>
-                    <div className='py-[2vh]'>
-                        logo
-                    </div>
-                </div>
             </header>
         </>
     )
