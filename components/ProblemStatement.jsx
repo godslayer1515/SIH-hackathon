@@ -19,6 +19,9 @@ const ProblemStatement = () => {
                             <li><b>Lack of Transparency:</b> Clients struggle to find the right legal service provider for their needs due to lack of centralized information and reviews.</li>
                             <li><b>Difficulty in Quality Assurance:</b> Ensuring the quality and reliability of legal services is a challenge, since there is no standardized system for evaluating providers.</li>
                             <li><b>Limited Accessibility:</b> Citizens from diverse socio-economic backgrounds often find it challenging to access legal expertise and representation, exacerbating the justice gap.</li>
+                            <li><b>Difficulty in Quality Assurance:</b> Ensuring the quality and reliability of legal services can be a challenge when a standardized system for evaluating the legal service providers does not exist.<br/><br/> Our platform will significantly enhance access to legal services, making them more accessible, affordable, and reliable. It will empower both legal service providers and clients, fostering a transparent and efficient legal ecosystem.<br/><br/>
+                            The project is in collaboration with the Ministry of Law and Justice, aligning with their vision to improve legal services accessibility in India.
+                            </li>
                         </ul>
                     </div>
                     <div className='bg-white drop-shadow-md z-[-1] p-4 rounded-lg'>

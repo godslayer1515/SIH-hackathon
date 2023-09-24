@@ -7,6 +7,8 @@ import Image from 'next/image';
 import Tarun from '../public/assets/tarun.png'
 import Dikshita from '../public/assets/dikshita.jpeg'
 import Siddharth from '../public/assets/sid1.jpg'
+import Poojap from '../public/assets/poojap.jpg'
+import Maxson from '../public/assets/maxson1.jpg'
 
 const Team = () => {
     return (
@@ -48,7 +50,7 @@ const Team = () => {
                     </Card.Body>
                 </Card>
                 <Card  className='drop-shadow-xl hover:drop-shadow-2xl w-[18rem] m-[15px] bg-white cursor-pointer rounded-[10px]'>
-                    <Image src={frontend} alt='frontend' layout="responsive" objectFit="cover" className='rounded-[10px]' />
+                    <Image src={Poojap} alt='frontend' layout="responsive" objectFit="cover" className='rounded-[10px]' />
                     <Card.Body>
                         <Card.Title className='text-xl font-bold mx-[15px]d py-[7px] ml-[5px]'>Pooja P </Card.Title>
                         <Card.Text className='font-semibold ml-[5px]'>Resource Curator</Card.Text>
@@ -82,18 +84,18 @@ const Team = () => {
                     </Card.Body>
                 </Card>
                 <Card  className='drop-shadow-xl hover:drop-shadow-2xl w-[18rem] m-[15px] bg-white cursor-pointer rounded-[10px]'>
-                    <Image src={frontend} alt='frontend' layout="responsive" objectFit="cover" className='rounded-[10px]' />
+                    <Image src={Maxson} alt='frontend' layout="responsive" objectFit="cover" className='rounded-[10px]' />
                     <Card.Body>
-                        <Card.Title className='text-xl font-bold mx-[15px]d py-[7px] ml-[5px]'>Tahmeer Pasha </Card.Title>
-                        <Card.Text className='font-semibold ml-[5px]'>Team leader,Fullstack engineer</Card.Text>
+                        <Card.Title className='text-xl font-bold mx-[15px]d py-[7px] ml-[5px]'>Maxson Joseph</Card.Title>
+                        <Card.Text className='font-semibold ml-[5px]'>Backend Engineer</Card.Text>
                         <Card.Text className='font-sans py-[7px] ml-[5px]'>
                             <p>Github:-</p>
-                            <a href="https://github.com/Tahmeerpasha" className='hover:text-blue-600'>
-                            https://github.com/Tahmeerpasha
+                            <a href="https://github.com/MaxsonKJoseph" className='hover:text-blue-600'>
+                            https://github.com/MaxsonKJoseph
                             </a>
                             <p>Linked In:-</p>
-                            <a href="https://www.linkedin.com/in/tahmeer-pasha" className='hover:text-blue-600'>
-                            https://www.linkedin.com/in/tahmeer-pasha
+                            <a href="https://www.linkedin.com/in/maxson-joseph-705265202/" className='hover:text-blue-600'>
+                            https://www.linkedin.com/in/maxson-joseph-705265202/
                             </a>
                         </Card.Text>
                     </Card.Body>
@@ -104,10 +106,6 @@ const Team = () => {
                         <Card.Title className='text-xl font-bold mx-[15px]d py-[7px] ml-[2px]'>Dikshita Purohit</Card.Title>
                         <Card.Text className='font-semibold ml-[2px]'>Backend Engineer</Card.Text>
                         <Card.Text className='font-sans py-[7px] ml-[5px]'>
-                            <p>Github:-</p>
-                            <a href="https://github.com/Tahmeerpasha" className='hover:text-blue-600'>
-                            https://github.com/Tahmeerpasha
-                            </a>
                             <p>Linked In:-</p>
                             <a href="https://www.linkedin.com/in/dikshita-b-320543283" className='hover:text-blue-600'>
                             https://www.linkedin.com/in/dikshita-b-320543283
