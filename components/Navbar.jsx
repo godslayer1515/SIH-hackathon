@@ -25,7 +25,7 @@ const Navbar = () => {
                         <a
                             key={link.id}
                             href={`#${link.name}`}
-                            className="mr-5 hover:font-bold cursor-pointer text-black-500 md:ml-[2rem] hover:text-white hover:text-bold w-[300px]"
+                            className="mr-5 hover:font-bold cursor-pointer text-black-500 md:ml-[2vw] hover:text-white hover:text-bold w-[300px]"
                         >
                             {link.name.toUpperCase()}
                         </a>
