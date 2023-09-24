@@ -12,7 +12,7 @@ const useCases = [
     {
         id: 3,
         title: 'Client Search for Legal Service Providers',
-        description: 'Legal service provider listings, search algorithms, user interface for searching and filtering.',
+        description: 'Legal service provider listings, user interface for searching and filtering.',
     },
     {
         id: 4,
@@ -47,7 +47,7 @@ const useCases = [
     {
         id: 10,
         title: 'Notifications and Alerts',
-        description: 'Real-time messaging, case updates, payment alerts, and email/SMS notifications.',
+        description: 'Real-time messaging, case updates, payment alerts, Email and SMS notifications.',
     },
     {
         id: 11,
@@ -65,7 +65,7 @@ const dependencies = [
     {
         id: 1,
         title: 'Authentication and Authorization',
-        description: 'Use of Firebase Authentication or similar for secure user registration and access control.',
+        description: 'Use of Firebase Authentication or enhanced alternative for secure user registration and access control.',
     },
     {
         id: 2,
@@ -75,12 +75,12 @@ const dependencies = [
     {
         id: 3,
         title: 'Messaging and Notifications',
-        description: 'Utilize a real-time messaging system (e.g., Firebase Cloud Messaging) and notifications to enable communication between users and keep them informed.',
+        description: 'Utilize a real-time messaging system (e.g., Firebase Cloud Messaging) and notifications to enable communication between users and keep them informed. Notifications include email and SMS services for sending important updates and alerts to users.',
     },
     {
         id: 4,
         title: 'Payment Gateway Integration',
-        description: 'Integrate a secure payment gateway (e.g., Stripe, PayPal) for handling financial transactions between clients and legal service providers.',
+        description: 'Integrate a secure payment gateway (e.g., Stripe, PayPal) for handling financial transactions and transaction tracking between clients and legal service providers.',
     },
     {
         id: 5,
@@ -109,33 +109,18 @@ const dependencies = [
     },
     {
         id: 10,
-        title: 'Payment Processing and Payouts',
-        description: 'Develop secure systems for handling payments and payouts to legal service providers, including financial transaction tracking.',
+        title: 'Case Management Tools',
+        description: 'Create tools and interfaces for initiating, tracking, and managing legal cases. Along with Implementing file or document storage and sharing capabilities for handling legal case documents.',
     },
     {
         id: 11,
-        title: 'Review and Rating System',
-        description: 'Integrate a system for clients to leave reviews and ratings, and display these on legal service provider profiles.',
-    },
-    {
-        id: 12,
-        title: 'Case Management Tools',
-        description: 'Create tools and interfaces for initiating, tracking, and managing legal cases.',
-    },
-    {
-        id: 13,
         title: 'Case File Management',
         description: 'Implement file/document storage and sharing capabilities for handling legal case documents.',
     },
     {
-        id: 14,
-        title: 'Email and SMS Notifications',
-        description: 'Use email and SMS notification services for sending important updates and alerts to users.',
-    },
-    {
-        id: 15,
+        id: 12,
         title: 'Legal and Regulatory Compliance',
-        description: 'Stay informed about and adhere to legal and regulatory requirements specific to the legal services industry in India.',
+        description: 'Stay informed adhere to legal and regulatory requirements specific to the legal services industry in India.',
     },
 ];
 
@@ -148,48 +133,44 @@ const dataPoints = [
     {
         id: 2,
         heading: "Fragmented and Unorganized Market",
-        desc: "Our team acknowledges the challenges posed by the fragmented and unorganized legal services market in India. With our platform, we intend to bring structure and organization to this sector, simplifying the process for clients to connect with legal professionals."
+        desc: "The team acknowledges the challenges posed by the fragmented and unorganized legal services market in India. Through our platform, we intend to bring structure and organization to this sector thereby simplifying the process for clients to connect with legal professionals."
     },
     {
         id: 3,
         heading: "Increased Accessibility",
-        desc: "Accessibility to legal assistance is a top priority for our team. We aim to significantly enhance accessibility by providing an online marketplace for legal services. This will particularly benefit individuals and businesses in remote areas with limited access to legal experts."
+        desc: "Accessibility to legal assistance is a top priority for our team. Aiming to significantly enhance accessibility by providing an online marketplace for legal services. This will particularly benefit individuals and businesses in remote areas with limited access to legal experts."
     },
     {
         id: 4,
         heading: "Transparency and Trust",
-        desc: "Building trust is at the core of our mission. Our team is committed to establishing a transparent and accountable platform that includes user reviews and ratings. This initiative addresses the trust issues often encountered in the legal services sector."
+        desc: "Building trust is at the core of our project. The team is committed to establishing a transparent and accountable platform that includes user reviews and ratings. This is an initiative to addresses trust issues which is often encountered in this sector."
     },
     {
         id: 5,
         heading: "Efficiency and Convenience",
-        desc: "Efficiency and convenience are the promises we make to our users. Clients will have the ease of searching for legal service providers, comparing offerings, and engaging services online, ensuring a hassle-free experience."
+        desc: "Efficiency and convenience are the promises we make to our users. Clients will have the ease of searching for legal service providers, check the reviews, and engaging services online, ensuring a hassle-free experience."
     },
     {
         id: 6,
         heading: "Monetization Opportunities",
-        desc: "Monetization is essential for the sustainability of our platform. We envision generating revenue through diverse strategies, including subscription plans for legal service providers, transaction fees for successful cases, premium listings, and advertising opportunities."
+        desc: "Monetization is essential for our platform's resilience. We envision generating revenue through diverse strategies, including subscription plans for legal service providers, transaction fees for successful cases, premium listings, and advertising opportunities."
     },
     {
         id: 7,
         heading: "Data Insights",
-        desc: "Our team recognizes the power of data. By collecting and analyzing data on legal service usage and user behavior, we empower legal service providers with valuable insights. This enables them to enhance their services and elevate client satisfaction."
+        desc: "Our team recognizes the power of data. By collecting and analyzing data on legal service usage and user behavior, we empower our service providers with valuable insights. This enables them to curate their services and elevate client satisfaction."
     },
     {
         id: 8,
         heading: "Scalability",
-        desc: "Our growth trajectory extends beyond boundaries. As our platform gains momentum, we aspire to scale our impact by expanding to different regions within India and exploring opportunities in neighboring countries with parallel legal systems."
+        desc: "The growth trajectory extends beyond boundaries. As our platform gains momentum, we aspire to scale our impact by expanding to different parts of the country and explore opportunities in neighboring countries with parallel legal systems."
     },
     {
         id: 9,
         heading: "LegalTech Trends",
         desc: "Innovation is the driving force behind our platform. We remain at the forefront of LegalTech trends, including AI-driven legal assistance, blockchain for smart contracts, and online dispute resolution, to ensure we deliver cutting-edge services."
     },
-    {
-        id: 10,
-        heading: "Regulatory Support",
-        desc: "Our team values compliance and credibility. Collaborating with legal authorities and industry associations is a priority. We ensure strict adherence to legal and regulatory requirements in India, solidifying our reputation as a trustworthy platform."
-    }
+
 ];
 
 const headerlinks = [
@@ -215,7 +196,61 @@ const headerlinks = [
     },
     {
         id: 6,
+        name: "services",
+    },
+    {
+        id: 7,
         name: "flowchart",
     },
+
 ]
-export { useCases, dependencies, dataPoints, headerlinks };
+
+const services = {
+    corporate: [
+        {
+            name: 'Business Incorporation',
+            description: 'Assist in registering and incorporating businesses with the appropriate legal structure. Ensure compliance with legal requirements for corporate entities.',
+        },
+        {
+            name: 'Contract Drafting and Review',
+            description: 'Provide legal expertise in drafting, reviewing, and negotiating contracts, such as partnership agreements, vendor contracts, and employment contracts. Ensure legal compliance and protect corporate interests.',
+        },
+        {
+            name: 'Intellectual Property Protection',
+            description: 'Help corporate clients protect their intellectual property rights, including trademark and copyright registration, patent applications, and intellectual property litigation. Safeguard valuable intangible assets.',
+        },
+        {
+            name: 'Mergers and Acquisitions',
+            description: 'Assist in mergers, acquisitions, and corporate restructuring processes. Conduct due diligence, negotiate deals, and ensure legal compliance throughout the transaction.',
+        },
+        {
+            name: 'Taxation and Compliance',
+            description: 'Provide tax advisory services, help corporations navigate complex tax regulations, and ensure compliance with tax laws. Optimize tax strategies to minimize liabilities.',
+        },
+    ],
+    individual: [
+        {
+            name: 'Family Law',
+            description: 'Handle family law cases, including divorce, child custody, spousal support, and adoption. Advocate for fair resolutions and protect family interests.',
+        },
+        {
+            name: 'Estate Planning',
+            description: 'Assist individuals in creating wills, trusts, and estate plans to manage their assets and ensure the smooth transfer of wealth. Minimize estate taxes and legal complications.',
+        },
+        {
+            name: 'Criminal Defense',
+            description: 'Provide legal representation and defense for individuals facing criminal charges, including DUI, drug offenses, and white-collar crimes. Protect individual rights and ensure a fair trial.',
+        },
+        {
+            name: 'Personal Injury Claims',
+            description: 'Handle personal injury cases resulting from accidents, negligence, or malpractice. Pursue compensation for medical expenses, pain and suffering, and lost wages.',
+        },
+        {
+            name: 'Real Estate Transactions',
+            description: 'Assist in real estate transactions, including buying, selling, or leasing property. Ensure legal compliance, review contracts, and resolve disputes related to property.',
+        },
+    ],
+};
+
+
+export { useCases, dependencies, dataPoints, headerlinks, services };

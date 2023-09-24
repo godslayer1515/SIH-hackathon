@@ -7,6 +7,7 @@ import Flowchart from '@/components/Flowchart'
 import UseCases from '@/components/UseCases'
 import Dependencies from '@/components/Dependencies'
 import Footer from '@/components/Footer'
+import Team from '@/components/Team'
 export default function Home() {
 
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <UseCases />
       <Dependencies />
       <Flowchart />
+      <Team/>
       <Footer/>
     </div>
   )
