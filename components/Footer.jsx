@@ -9,6 +9,7 @@ const Footer = () => {
       <div className='flex flex-col justify-center md:items-start md:ml-[90px] drop-shadow-xl md:px-[5vw] md:py-[4vh] px-[5vw] my-3'>
         <h1 className='text-2xl'>Professor Guide:-</h1>
         <p className='hover:text-lg cursor-pointer'>Prof - Vijayan balaji</p>
+        <p className='hover:text-lg cursor-pointer'>Prof - shravana kayapanni</p>
       </div>
       <div className='flex flex-col justify-center items-center ml-[90px]drop-shadow-xl  md:px-[5vw] md:py-[4vh] px-[5vw] my-3'>
         <p className='text-bold pb-[10px] pt-[10px]'>This project was made for the SIH hackathon</p>

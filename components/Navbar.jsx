@@ -14,8 +14,8 @@ const Navbar = () => {
     };
 
     return (
-        <nav className='bg-white'>
-            <div className=" fixed top-0 left-0 right-0 mx-auto flex p-5 flex-wrap flex-row justify-between items-center bg-white mt-2vh mb-2vh drop-shadow-xl z-[5]">
+        <nav className='bg-gradient-to-r from-[#8e7dee] to-[#8674f0]'>
+            <div className=" fixed top-0 left-0 right-0 mx-auto flex p-5 flex-wrap flex-row justify-between items-center bg-gradient-to-r from-[#97e5ec] to-[#3a757c] mt-2vh mb-2vh drop-shadow-2xl z-[5]">
                 <a href="#" className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 cursor-pointer">
                     <Image src={logo} width={50} height={20} alt="logo" className='hover:w-[55px] transition-all ease-in 2s hover:h-[50px]'/>
                     <span className="ml-3 text-xl">LegalX</span>
@@ -25,7 +25,7 @@ const Navbar = () => {
                         <a
                             key={link.id}
                             href={`#${link.name}`}
-                            className="mr-5 hover:font-bold cursor-pointer text-black-500 md:ml-[2rem] hover:text-[#8674f0] hover:text-bold w-[300px]"
+                            className="mr-5 hover:font-bold cursor-pointer text-black-500 md:ml-[2rem] hover:text-white hover:text-bold w-[300px]"
                         >
                             {link.name.toUpperCase()}
                         </a>
@@ -36,7 +36,7 @@ const Navbar = () => {
                         <a
                             key={link.id}
                             href={`#${link.name}`}
-                            className="mr-5 cursor-pointer hover:text-[#8674f0] hover:text-bold text-black py-[2px]"
+                            className="mr-5 cursor-pointer hover:text-white hover:text-bold text-black-500 py-[2px]"
                         >
                             {link.name.toUpperCase()}
                         </a>
