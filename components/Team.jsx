@@ -5,7 +5,8 @@ import Tahmeer from '../public/assets/tahmeer.png'
 import frontend from '../public/assets/frontend.png'
 import Image from 'next/image';
 import Tarun from '../public/assets/tarun.png'
-import Dikshita from '../public/assets/dikshita.jpeg' 
+import Dikshita from '../public/assets/dikshita.jpeg'
+import Siddharth from '../public/assets/sid1.jpg'
 
 const Team = () => {
     return (
@@ -30,7 +31,7 @@ const Team = () => {
                     </Card.Body>
                 </Card>
                 <Card  className='drop-shadow-xl hover:drop-shadow-2xl w-[18rem] m-[15px] bg-white cursor-pointer rounded-[10px]'>
-                    <Image src={frontend} alt='frontend' layout="responsive" objectFit="cover" className='rounded-[10px]' />
+                    <Image src={Siddharth} alt='frontend' layout="responsive" objectFit="cover" className='rounded-[10px]' />
                     <Card.Body>
                         <Card.Title className='text-xl font-bold mx-[15px]d py-[7px] ml-[5px]'>Siddharth Shukla </Card.Title>
                         <Card.Text className='font-semibold ml-[5px]'>Frontend Engineer</Card.Text>

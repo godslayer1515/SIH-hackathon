@@ -42,9 +42,9 @@ const Navbar = () => {
                         </a>
                     ))}
                 </nav>
-                <button className="inline-flex items-center bg-white-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0 md:hidden" onClick={onToggle}>
+                <button className="inline-flex items-center bg-white-100 border-0 py-1 px-3 focus:outline-none rounded text-base mt-4 md:mt-0 md:hidden" onClick={onToggle}>
                     {Toggle ? (
-                        <Image src={menu} width={45} height={30} alt="menu" />
+                        <Image src={menu} width={45} height={30} alt="menu" className='rounded-[20px] hover:drop-shadow-xl' />
                     ) : (
                         <Image src={menuclose} width={30} height={20} alt="cross" />
                     )}
