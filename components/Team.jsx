@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import Card from 'react-bootstrap/Card';
-import Tahmeer from '../public/assets/tahmeer.png'
+import Tahmeer from '../public/assets/tahmeer1.png'
 import frontend from '../public/assets/frontend.png'
 import Image from 'next/image';
 import Tarun from '../public/assets/tarun.png'
