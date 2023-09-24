@@ -7,7 +7,7 @@ import Image from 'next/image';
 import Tarun from '../public/assets/tarun.png'
 import Dikshita from '../public/assets/dikshita.jpeg'
 import Siddharth from '../public/assets/sid1.jpg'
-import Poojap from '../public/assets/poojap.jpg'
+import Poojap from '../public/assets/poojap.png'
 import Maxson from '../public/assets/maxson1.jpg'
 
 const Team = () => {
