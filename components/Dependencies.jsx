@@ -3,7 +3,7 @@ import { dependencies } from '@/components/dependency.js';
 
 const Dependencies = () => {
     return (
-        <div className='bg-[#f5f5f5] w-full py-12 pt-[15vh]' id='dependencies'>
+        <div className='bg-[#f5f5f5] w-full py-1 pt-[13vh]' id='dependencies'>
             <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
                 <div className='text-center'>
                     <h1 className='text-2xl sm:text-3xl font-bold my-4'>Dependencies</h1>

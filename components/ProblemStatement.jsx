@@ -2,7 +2,7 @@ import React from 'react';
 
 const ProblemStatement = () => {
     return (
-        <div id='ps' className='bg-[#8674f0] w-full rounded-[20px] drop-shadow-sm pt-[12vh]'>
+        <div id='problem' className='bg-[#8674f0] w-full rounded-[20px] drop-shadow-sm pt-[10vh] md:pt-[12vh]'>
             <div className='container mx-auto py-8 px-4 sm:px-6 lg:px-8 rounded-[20px]'>
                 <h1 className='text-2xl sm:text-3xl text-center font-bold my-4 text-[#150e3d]'>Problem Statement Details</h1>
                 <div className='space-y-4'>

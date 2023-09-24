@@ -5,7 +5,7 @@ import ministry from '@/public/assets/peakpx.png'
 
 const Main = () => {
     return (
-        <div id='home' className="flex justify-center items-center md:pt-[11vh] pb-[2vh] pt-[19vh] ">
+        <div id='home' className="flex justify-center items-center pt-[27vh]  pb-[10vh] md:pt-[11vh] md:pb-[2vh]">
             <div className="w-[50%] h-[50%] drop-shadow-xl hover:drop-shadow-2xl transition-all ease-in md:mt-[2vh]">
                 <Image
                     src={ministry}s

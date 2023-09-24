@@ -5,7 +5,7 @@ import footerlogo from '../public/assets/footerlogo.png'
 
 const Footer = () => {
   return (
-    <div className='flex flex-row flex-wrap justify-center w-full bg-[#8674f0] drop-shadow-xl h-full'>
+    <div className='flex flex-row flex-wrap justify-center w-full bg-[#8674f0] h-full rounded-[23px] drop-shadow-lg'>
       <div className='flex flex-col justify-center md:items-start md:ml-[90px] drop-shadow-xl md:px-[5vw] md:py-[4vh] px-[5vw] my-3'>
         <h1 className='text-2xl'>Professor Guide:-</h1>
         <p className='hover:text-lg cursor-pointer'>Prof - Vijayan balaji</p>

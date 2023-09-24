@@ -180,7 +180,7 @@ const headerlinks = [
     },
     {
         id: 2,
-        name: "ps",
+        name: "problem",
     },
     {
         id: 3,
@@ -196,7 +196,7 @@ const headerlinks = [
     },
     {
         id: 6,
-        name: "services",
+        name: "team",
     },
     {
         id: 7,
