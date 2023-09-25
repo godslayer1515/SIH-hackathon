@@ -15,9 +15,9 @@ const Footer = () => {
         <p className='text-bold pb-[10px] pt-[10px]'>This project was made for the SIH hackathon</p>
         <Image src={footerlogo} objectFit="cover" layout="responsive" className='shadow-lg rounded-[5px] hover:shadow-2xl'></Image>
       </div>
-      <div className='flex flex-col justify-center items-center md:px-[5vw] md:py-[4vh] px-[5vw] my-3'>
-        <h3 className='text-2xl text-bold'>Message:</h3>
-        <p className='w-[400px] mt-[5px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque obcaecati vel, illo placeat veritatis velit dicta provident, esse tempore laudantium magnam quo at?</p>
+      <div className='flex flex-col md:px-[5vw] md:py-[4vh] px-[5vw] my-3'>
+        <h3 className='text-2xl text-bold'>Note:</h3>
+        <p className='w-[400px] mt-[5px]'>Law and justice are the twin pillars upon which civilized societies stand, ensuring that fairness prevails over chaos and that the rights of all are protected.</p>
       </div>
     </div>
   )
